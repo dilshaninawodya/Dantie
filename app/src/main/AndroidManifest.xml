@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" android:required="true" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/lr2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/lr2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DantieApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".tips.SpotsTips"
+            android:exported="false" />
+        <activity
+            android:name=".tips.ChippedTips"
+            android:exported="false" />
+        <activity
+            android:name=".tips.BreathTips"
+            android:exported="false" />
+        <activity
+            android:name=".tips.AcheTips"
+            android:exported="false" />
+        <activity
+            android:name=".tips.UlcerTips"
+            android:exported="false" />
+        <activity
+            android:name=".tips.GingivitisTips"
+            android:exported="false" />
+        <activity
+            android:name=".tips.CariesTips"
+            android:exported="false" />
+        <activity
+            android:name=".tips.CalculusTips"
+            android:exported="false" />
+        <activity
+            android:name=".problems.AcheDetails"
+            android:exported="false" />
+        <activity
+            android:name=".problems.SpotsDetails"
+            android:exported="false" />
+        <activity
+            android:name=".problems.ChippedDetails"
+            android:exported="false" />
+        <activity
+            android:name=".problems.BreathDetails"
+            android:exported="false" />
+        <activity
+            android:name=".problems.UlcerDetails"
+            android:exported="false" />
+        <activity
+            android:name=".problems.GingivitisDeatils"
+            android:exported="false" />
+        <activity
+            android:name=".problems.CariesDetails"
+            android:exported="false" />
+        <activity
+            android:name=".problems.CalculusDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutDantie"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContactExperts"
+            android:exported="false" />
+        <activity
+            android:name=".tips.TipsToKnow"
+            android:exported="false" />
+        <activity
+            android:name=".problems.DentalProblems"
+            android:exported="false" />
+        <activity
+            android:name=".DiseaseDetection"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
